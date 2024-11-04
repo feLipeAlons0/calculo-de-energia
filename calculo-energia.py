@@ -38,7 +38,7 @@ def calculo_energia():
     except:
         print('Ops, verificamos aqui que você não digitou um valor correto, na quantidade consumida de KWh, deve conter apenas números.')
         calculo_energia()
-#comentario teste
+
     match (tipo_de_instalacao):
         case 1:
             if (quantidade_consumida <= 500):
